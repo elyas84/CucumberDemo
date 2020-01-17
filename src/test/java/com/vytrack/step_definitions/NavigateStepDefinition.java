@@ -40,5 +40,14 @@ public class NavigateStepDefinition {
     public void the_url_should_be_expected_Calendar_url() {
         System.out.println("expected Calendar url==PASS");
     }
+    @When("the user navigate to Marketing Company")
+    public void the_user_navigate_to_Marketing_Company() {
+        System.out.println("sales manager navigate marketing-company");
+    }
+
+    @Then("the url should be expected Company url")
+    public void the_url_should_be_expected_Company_url() {
+        System.out.println("the expected url is will be the given url");
+    }
 
 }
