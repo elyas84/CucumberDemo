@@ -2,32 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2eb2517b-6dd2-4bc8-982e-70f72185c143" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/CalendarEventsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/ContactInfoPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/ContactsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/CreateCalendarEventsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/DashboardPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/BrowserUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/ConfigurationReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Contact.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/LoginWithParameteres.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/LoginStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/LoginStepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/NavigateStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/NavigateStepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/NavigationMenu.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/NavigationMenu.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/runners/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/runners/CukesRunner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/LoginStepDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/LoginStepDefinition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/NavigateStepDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/NavigateStepDefinition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/NavigationMenu.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/NavigationMenu.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +49,24 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.CukesRunner">
+    <configuration name="Feature: Jobs" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4.5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Jobs.feature" />
+      <option name="GLUE" value="com.vytrack.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="summer-2019-euro-cucumber-selenium" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Jobs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4.5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
@@ -122,25 +120,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Login as a store manager" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="4.5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
-      <option name="GLUE" value="com.vytrack.step_definitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="summer-2019-euro-cucumber-selenium" />
-      <option name="NAME_FILTER" value="^Login as a store manager$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Login as a store manager$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Login as a store manager" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="summer-2019-euro-cucumber-selenium" />
       <extension name="coverage">
@@ -159,10 +138,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="Cucumber java.Feature: Jobs" />
         <item itemvalue="Cucumber java.Feature: loginWithParameteres" />
         <item itemvalue="Cucumber java.Feature: NavigationMenu" />
         <item itemvalue="Cucumber java.Feature: Login" />
-        <item itemvalue="Cucumber java.Scenario: Login as a store manager" />
       </list>
     </recent_temporary>
   </component>
@@ -200,25 +179,33 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="700" y="324" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579518468944" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1579525844260">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1579540083315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579525844260" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1579525844259">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579540083315" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1579540083315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579525844259" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1579525844259">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579540083315" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1579540083315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579525844259" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1579525844260">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579540083315" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1579540083315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579525844260" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579540083315" />
     <state x="461" y="163" key="SettingsEditor" timestamp="1579512841396">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="163" key="SettingsEditor/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579512841396" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1579539648804">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579539648804" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1579539502883">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579539502883" />
   </component>
 </project>
