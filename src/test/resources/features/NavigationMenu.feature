@@ -10,7 +10,7 @@ Feature: Navigation menu
 
 
    Scenario: Marketing--> Campaigns
-       Given the user ins in the login page
+       Given the user in the login page
        And the user enter the sales manager information
        When the user navigate to Marketing Company
        Then the url should be expected Company url
