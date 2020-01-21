@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-01-20T17:08:04.358Z",
+        "start_timestamp": "2020-01-21T21:49:32.215Z",
         "before": [
           {
             "result": {
-              "duration": 856300,
+              "duration": 1538900,
               "status": "passed"
             },
             "match": {
@@ -15,18 +15,18 @@
             }
           }
         ],
-        "line": 3,
-        "name": "Default page number",
+        "line": 17,
+        "name": "login as a given user",
         "description": "",
-        "id": "contact-page;default-page-number",
+        "id": "contact-page;login-as-a-given-user",
         "after": [
           {
             "result": {
-              "duration": 738888000,
+              "duration": 743120200,
               "status": "passed"
             },
             "match": {
-              "location": "Hooks.tearDown()"
+              "location": "Hooks.tearDown(Scenario)"
             }
           }
         ],
@@ -35,10 +35,10 @@
         "steps": [
           {
             "result": {
-              "duration": 7475370300,
+              "duration": 7454694600,
               "status": "passed"
             },
-            "line": 4,
+            "line": 18,
             "name": "the user is on the login page",
             "match": {
               "location": "LoginStepDefinition.the_user_is_on_the_login_page()"
@@ -47,53 +47,51 @@
           },
           {
             "result": {
-              "duration": 7948465900,
+              "duration": 13050373800,
               "status": "passed"
             },
-            "line": 5,
-            "name": "the user enter the sales manager information",
+            "line": 19,
+            "name": "the user  logs in using following credentials",
             "match": {
-              "location": "LoginStepDefinition.the_user_enter_the_sales_manager_information()"
+              "location": "ContactStepDefinition.the_user_logs_in_using_following_credentials(String,String\u003e)"
             },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 645339100,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "the user navigates \"Customers\" \"Contacts\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Customers\"",
-                  "offset": 19
-                },
-                {
-                  "val": "\"Contacts\"",
-                  "offset": 31
-                }
-              ],
-              "location": "NavigateStepDefinition.the_user_navigates(String,String)"
-            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "user1"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "UserUser123"
+                ]
+              },
+              {
+                "cells": [
+                  "firstname",
+                  "John"
+                ]
+              },
+              {
+                "cells": [
+                  "lastname",
+                  "Lastname"
+                ]
+              }
+            ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 51301300,
+              "duration": 437300,
               "status": "passed"
             },
-            "line": 7,
-            "name": "default page number should be 1",
+            "line": 24,
+            "name": "the user should be to login",
             "match": {
-              "arguments": [
-                {
-                  "val": "1",
-                  "offset": 30
-                }
-              ],
-              "location": "NavigateStepDefinition.default_page_number_should_be(Integer)"
+              "location": "LoginStepDefinition.the_user_should_be_to_login()"
             },
             "keyword": "Then "
           }

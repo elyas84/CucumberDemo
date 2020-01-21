@@ -1,8 +1,11 @@
 package com.vytrack.step_definitions;
 
 import com.vytrack.utilities.Driver;
+import io.cucumber.core.api.Scenario;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 
 public class Hooks {
     @Before
@@ -10,19 +13,17 @@ public class Hooks {
         System.out.println("This is coming from BEFORE");
     }
     @After
-    public void tearDown(){
+    public void tearDown(Scenario scenario){
+        //if the scenario fails take the screenshot
+        if(scenario.isFailed()){
+            final byte[] screenshot = ((TakesScreenshot) Driver.get()).getScreenshotAs(OutputType.BYTES);
+            scenario.embed(screenshot,"image/png");
+        }
+
         Driver.closeDriver();
     }
 
-    @Before("@db")
-    public void setUpDataBase(){
-        System.out.println("Connection DATABASE");
-    }
-    @After("@db")
-    public void tearDownSalesManager(){
-        System.out.println("Closing DadaBase Connection\n");
 
-    }
 
 
 

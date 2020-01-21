@@ -2,6 +2,10 @@ package com.vytrack.step_definitions;
 
 import com.vytrack.pages.ContactsPage;
 import com.vytrack.pages.DashboardPage;
+import com.vytrack.pages.LoginPage;
+import com.vytrack.utilities.BrowserUtils;
+import com.vytrack.utilities.ConfigurationReader;
+import com.vytrack.utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -43,6 +47,7 @@ public class NavigateStepDefinition {
     public void the_url_should_be_expected_Calendar_url() {
         System.out.println("expected Calendar url==PASS");
     }
+
     @When("the user navigate to Marketing Company")
     public void the_user_navigate_to_Marketing_Company() {
         System.out.println("sales manager navigate marketing-company");
@@ -54,8 +59,8 @@ public class NavigateStepDefinition {
     }
 
     @When("the user navigates {string} {string}")
-    public void the_user_navigates(String tab  , String module) {
-        new DashboardPage().navigateToModule(tab,module);
+    public void the_user_navigates(String tab, String module) {
+        new DashboardPage().navigateToModule(tab, module);
 
     }
 
@@ -64,8 +69,35 @@ public class NavigateStepDefinition {
         ContactsPage contactsPage = new ContactsPage();
 
         Integer actualNumber = Integer.parseInt(contactsPage.pageNumber.getAttribute("value"));
-        Assert.assertEquals(actualNumber,expectedPageNumber);
+        Assert.assertEquals(actualNumber, expectedPageNumber);
 
     }
+    @Given("the user logged in as a {string}")
+    public void the_user_logged_in_as_a(String user) {
+
+        String url = ConfigurationReader.get("url");
+        Driver.get().get(url);
+        String username = null;
+        String password = null;
+        if(user.equals("driver")){
+            username = ConfigurationReader.get("driver_username");
+            password = ConfigurationReader.get("driver_password");
+        }else if(user.equals("sales manager")){
+            username = ConfigurationReader.get("sales_manager_username");
+            password = ConfigurationReader.get("sales_manager_password");
+        }else if(user.equals("store manager")){
+            username = ConfigurationReader.get("store_manager_username");
+            password = ConfigurationReader.get("store_manager_password");
+        }
+        LoginPage loginPage = new LoginPage();
+        loginPage.login(username,password);
+
+
+    }
+
+
+
+
+
 
 }
