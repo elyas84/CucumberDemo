@@ -1,4 +1,13 @@
 -------------------------------------------------------------------------------
 Test set: com.vytrack.runners.CukesRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.547 s - in com.vytrack.runners.CukesRunner
+Tests run: 18, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 402.178 s <<< FAILURE! - in com.vytrack.runners.CukesRunner
+Login with different users sales manager(Account types)  Time elapsed: 26.601 s  <<< FAILURE!
+java.lang.AssertionError: Actual title:Dashboard
+
+Login with different users store manager(Account types)  Time elapsed: 26.514 s  <<< FAILURE!
+java.lang.AssertionError: Actual title:Dashboard
+
+Login with different users store manager(Account types)  Time elapsed: 26.389 s  <<< FAILURE!
+java.lang.AssertionError: Actual title:Dashboard
+

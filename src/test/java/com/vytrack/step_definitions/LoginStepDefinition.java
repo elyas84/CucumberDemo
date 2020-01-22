@@ -63,11 +63,12 @@ public class LoginStepDefinition {
 
         LoginPage loginPage = new LoginPage();
         loginPage.login(username, password);
-        BrowserUtils.waitFor(3);
+        BrowserUtils.waitFor(5);
     }
     @Then("the title should contains {string}")
     public void the_title_should_contains(String expectedTitle) {
-      Assert.assertTrue(Driver.get().getTitle().contains(expectedTitle));
+        BrowserUtils.waitFor(5);
+        Assert.assertTrue("Actual title:"+Driver.get().getTitle(),Driver.get().getTitle().contains(expectedTitle));
         System.out.println("expectedTitle = " + expectedTitle);
     }
 

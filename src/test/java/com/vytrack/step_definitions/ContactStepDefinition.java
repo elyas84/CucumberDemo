@@ -38,12 +38,7 @@ public class ContactStepDefinition {
         String actualFullName =dashboardPage.getUserName();
         String expectedFullName = userData.get("firstname"+""+userData.get("lastname"));
         Assert.assertEquals(expectedFullName,expectedFullName);
-
-
-
-
-
-
-
     }
+
+
 }

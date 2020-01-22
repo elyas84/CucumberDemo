@@ -60,6 +60,7 @@ public class NavigateStepDefinition {
 
     @When("the user navigates {string} {string}")
     public void the_user_navigates(String tab, String module) {
+        BrowserUtils.waitFor(5);
         new DashboardPage().navigateToModule(tab, module);
 
     }
@@ -75,6 +76,7 @@ public class NavigateStepDefinition {
     @Given("the user logged in as a {string}")
     public void the_user_logged_in_as_a(String user) {
 
+        BrowserUtils.waitFor(5);
         String url = ConfigurationReader.get("url");
         Driver.get().get(url);
         String username = null;
@@ -94,10 +96,5 @@ public class NavigateStepDefinition {
 
 
     }
-
-
-
-
-
 
 }

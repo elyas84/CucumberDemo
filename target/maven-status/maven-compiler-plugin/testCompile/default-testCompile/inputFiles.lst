@@ -2,8 +2,10 @@ C:\Users\Elyas\IdeaProjects\summer-2019-euro-cucumber-selenium\src\test\java\com
 C:\Users\Elyas\IdeaProjects\summer-2019-euro-cucumber-selenium\src\test\java\com\vytrack\pages\ContactInfoPage.java
 C:\Users\Elyas\IdeaProjects\summer-2019-euro-cucumber-selenium\src\test\java\com\vytrack\step_definitions\NavigateStepDefinition.java
 C:\Users\Elyas\IdeaProjects\summer-2019-euro-cucumber-selenium\src\test\java\com\vytrack\pages\DashboardPage.java
+C:\Users\Elyas\IdeaProjects\summer-2019-euro-cucumber-selenium\src\test\java\com\vytrack\runners\FailedTestRunner.java
 C:\Users\Elyas\IdeaProjects\summer-2019-euro-cucumber-selenium\src\test\java\com\vytrack\pages\LoginPage.java
 C:\Users\Elyas\IdeaProjects\summer-2019-euro-cucumber-selenium\src\test\java\com\vytrack\pages\ContactsPage.java
+C:\Users\Elyas\IdeaProjects\summer-2019-euro-cucumber-selenium\src\test\java\com\vytrack\step_definitions\ContactStepDefinition.java
 C:\Users\Elyas\IdeaProjects\summer-2019-euro-cucumber-selenium\src\test\java\com\vytrack\pages\BasePage.java
 C:\Users\Elyas\IdeaProjects\summer-2019-euro-cucumber-selenium\src\test\java\com\vytrack\pages\CalendarEventsPage.java
 C:\Users\Elyas\IdeaProjects\summer-2019-euro-cucumber-selenium\src\test\java\com\vytrack\utilities\Driver.java

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.vytrack.runners.CukesRunner" time="402.178" tests="18" errors="0" skipped="0" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.vytrack.runners.FailedTestRunner" time="78.469" tests="3" errors="0" skipped="0" failures="3">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -59,57 +59,42 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="56.0"/>
   </properties>
-  <testcase name="Login with different users driver" classname="Account types" time="23.561"/>
-  <testcase name="Login with different users driver" classname="Account types" time="20.789"/>
-  <testcase name="Login with different users driver" classname="Account types" time="22.758"/>
-  <testcase name="Login with different users driver" classname="Account types" time="21.032"/>
-  <testcase name="Login with different users driver" classname="Account types" time="20.784"/>
-  <testcase name="Login with different users sales manager" classname="Account types" time="21.081"/>
-  <testcase name="Login with different users sales manager" classname="Account types" time="20.874"/>
-  <testcase name="Login with different users sales manager" classname="Account types" time="21.12"/>
-  <testcase name="Login with different users sales manager" classname="Account types" time="21.435"/>
-  <testcase name="Login with different users sales manager" classname="Account types" time="21.935"/>
-  <testcase name="Login with different users sales manager" classname="Account types" time="26.601">
+  <testcase name="Login with different users sales manager" classname="Account types" time="25.797">
     <failure message="Actual title:Dashboard" type="java.lang.AssertionError">java.lang.AssertionError: Actual title:Dashboard
 </failure>
     <system-out><![CDATA[This is coming from BEFORE
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 37624
+    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 46165
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1579726175.568][WARNING]: Timed out connecting to Chrome, retrying...
-Jan 22, 2020 9:49:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1579726361.827][WARNING]: Timed out connecting to Chrome, retrying...
+Jan 22, 2020 9:52:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Login with different users store manager" classname="Account types" time="20.692"/>
-  <testcase name="Login with different users store manager" classname="Account types" time="21.039"/>
-  <testcase name="Login with different users store manager" classname="Account types" time="21.513"/>
-  <testcase name="Login with different users store manager" classname="Account types" time="21.531"/>
-  <testcase name="Login with different users store manager" classname="Account types" time="21.841"/>
-  <testcase name="Login with different users store manager" classname="Account types" time="26.514">
+  <testcase name="Login with different users store manager" classname="Account types" time="26.086">
     <failure message="Actual title:Dashboard" type="java.lang.AssertionError">java.lang.AssertionError: Actual title:Dashboard
 </failure>
     <system-out><![CDATA[This is coming from BEFORE
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 23327
+    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 40221
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1579726308.784][WARNING]: Timed out connecting to Chrome, retrying...
-Jan 22, 2020 9:51:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1579726387.626][WARNING]: Timed out connecting to Chrome, retrying...
+Jan 22, 2020 9:53:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Login with different users store manager" classname="Account types" time="26.389">
+  <testcase name="Login with different users store manager" classname="Account types" time="26.575">
     <failure message="Actual title:Dashboard" type="java.lang.AssertionError">java.lang.AssertionError: Actual title:Dashboard
 </failure>
     <system-out><![CDATA[This is coming from BEFORE
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 23658
+    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 15704
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1579726335.248][WARNING]: Timed out connecting to Chrome, retrying...
-Jan 22, 2020 9:52:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1579726413.754][WARNING]: Timed out connecting to Chrome, retrying...
+Jan 22, 2020 9:53:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>

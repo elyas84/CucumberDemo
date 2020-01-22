@@ -10,7 +10,8 @@ import org.junit.runner.RunWith;
         //where our feature files are located
         // We whether we can write by hand this location or just click the copyPath
        plugin = {"json:target/cucumber.json",
-             "html:target/default-html-report"},
+             "html:target/default-html-report",
+                "rerun:target/rerun.txt"},
         features = "src/test/resources/features/",
         glue = "com/vytrack/step_definitions" ,
         dryRun =  false ,

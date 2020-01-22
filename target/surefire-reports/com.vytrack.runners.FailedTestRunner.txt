@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.vytrack.runners.FailedTestRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 78.469 s <<< FAILURE! - in com.vytrack.runners.FailedTestRunner
+Login with different users sales manager(Account types)  Time elapsed: 25.797 s  <<< FAILURE!
+java.lang.AssertionError: Actual title:Dashboard
+
+Login with different users store manager(Account types)  Time elapsed: 26.086 s  <<< FAILURE!
+java.lang.AssertionError: Actual title:Dashboard
+
+Login with different users store manager(Account types)  Time elapsed: 26.575 s  <<< FAILURE!
+java.lang.AssertionError: Actual title:Dashboard
+
