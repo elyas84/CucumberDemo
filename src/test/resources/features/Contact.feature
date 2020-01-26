@@ -1,6 +1,6 @@
 Feature: Contact page
 
-
+  @wip
   Scenario: Default page number
     Given the user is on the login page
     And the user enter the sales manager information
