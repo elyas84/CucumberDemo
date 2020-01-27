@@ -1,6 +1,5 @@
+@smoke
 Feature: Contact page
-
-
   Scenario: Default page number
     Given the user is on the login page
     And the user enter the sales manager information
@@ -12,7 +11,7 @@ Feature: Contact page
       Given the user logged in as a "driver"
        Then the user should see following menu options
       | Fleet     | Customers  | Activities | System     |
-@wip
+
 
    Scenario Outline: login as a given user
     Given the user is on the login page

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.vytrack.runners.CukesRunner" time="402.178" tests="18" errors="0" skipped="0" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.vytrack.runners.CukesRunner" time="22.682" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-12.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\Elyas\AppData\Local\Temp\surefire11976057510696704436\surefirebooter4516031643065762377.jar C:\Users\Elyas\AppData\Local\Temp\surefire11976057510696704436 2020-01-22T21-45-52_919-jvmRun1 surefire13194024973331074326tmp surefire_09335506950275166600tmp"/>
+    <property name="sun.java.command" value="C:\Users\Elyas\AppData\Local\Temp\surefire4457074654222291434\surefirebooter10690369003342609370.jar C:\Users\Elyas\AppData\Local\Temp\surefire4457074654222291434 2020-01-26T17-38-51_534-jvmRun1 surefire9312714756430935883tmp surefire_015435502370984582242tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Elyas\IdeaProjects\summer-2019-euro-cucumber-selenium\target\test-classes;C:\Users\Elyas\IdeaProjects\summer-2019-euro-cucumber-selenium\target\classes;C:\Users\Elyas\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Elyas\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Elyas\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Elyas\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Elyas\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Elyas\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Elyas\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Elyas\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Elyas\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Elyas\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Elyas\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Elyas\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Elyas\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Elyas\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Elyas\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Elyas\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Elyas\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Elyas\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Elyas\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Elyas\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Elyas\.m2\repository\io\github\bonigarcia\webdrivermanager\3.8.0\webdrivermanager-3.8.0.jar;C:\Users\Elyas\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Elyas\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Elyas\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Elyas\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Elyas\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\Elyas\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\Elyas\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Elyas\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Elyas\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Elyas\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Elyas\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\Elyas\.m2\repository\io\cucumber\cucumber-junit\4.8.1\cucumber-junit-4.8.1.jar;C:\Users\Elyas\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Elyas\.m2\repository\io\cucumber\cucumber-core\4.8.1\cucumber-core-4.8.1.jar;C:\Users\Elyas\.m2\repository\io\cucumber\gherkin\5.1.0\gherkin-5.1.0.jar;C:\Users\Elyas\.m2\repository\io\cucumber\tag-expressions\1.1.1\tag-expressions-1.1.1.jar;C:\Users\Elyas\.m2\repository\io\cucumber\cucumber-expressions\7.0.2\cucumber-expressions-7.0.2.jar;C:\Users\Elyas\.m2\repository\io\cucumber\datatable\1.1.14\datatable-1.1.14.jar;C:\Users\Elyas\.m2\repository\io\cucumber\datatable-dependencies\1.1.14\datatable-dependencies-1.1.14.jar;C:\Users\Elyas\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Elyas\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Elyas\.m2\repository\io\cucumber\cucumber-java\4.8.1\cucumber-java-4.8.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Elyas\AppData\Local\Temp\surefire11976057510696704436\surefirebooter4516031643065762377.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Elyas\AppData\Local\Temp\surefire4457074654222291434\surefirebooter10690369003342609370.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="12.0.2+10"/>
@@ -51,66 +51,12 @@
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-12.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-12.0.2\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Brackets\command;C:\Users\Elyas\AppData\Local\Microsoft\WindowsApps;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;."/>
-    <property name="idea.version2019.3.2" value="true"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-12.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-12.0.2\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Brackets\command;C:\apache-maven-3.6.3\bin;C:\Users\Elyas\AppData\Local\Microsoft\WindowsApps;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="12.0.2+10"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="56.0"/>
   </properties>
-  <testcase name="Login with different users driver" classname="Account types" time="23.561"/>
-  <testcase name="Login with different users driver" classname="Account types" time="20.789"/>
-  <testcase name="Login with different users driver" classname="Account types" time="22.758"/>
-  <testcase name="Login with different users driver" classname="Account types" time="21.032"/>
-  <testcase name="Login with different users driver" classname="Account types" time="20.784"/>
-  <testcase name="Login with different users sales manager" classname="Account types" time="21.081"/>
-  <testcase name="Login with different users sales manager" classname="Account types" time="20.874"/>
-  <testcase name="Login with different users sales manager" classname="Account types" time="21.12"/>
-  <testcase name="Login with different users sales manager" classname="Account types" time="21.435"/>
-  <testcase name="Login with different users sales manager" classname="Account types" time="21.935"/>
-  <testcase name="Login with different users sales manager" classname="Account types" time="26.601">
-    <failure message="Actual title:Dashboard" type="java.lang.AssertionError">java.lang.AssertionError: Actual title:Dashboard
-</failure>
-    <system-out><![CDATA[This is coming from BEFORE
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 37624
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1579726175.568][WARNING]: Timed out connecting to Chrome, retrying...
-Jan 22, 2020 9:49:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="Login with different users store manager" classname="Account types" time="20.692"/>
-  <testcase name="Login with different users store manager" classname="Account types" time="21.039"/>
-  <testcase name="Login with different users store manager" classname="Account types" time="21.513"/>
-  <testcase name="Login with different users store manager" classname="Account types" time="21.531"/>
-  <testcase name="Login with different users store manager" classname="Account types" time="21.841"/>
-  <testcase name="Login with different users store manager" classname="Account types" time="26.514">
-    <failure message="Actual title:Dashboard" type="java.lang.AssertionError">java.lang.AssertionError: Actual title:Dashboard
-</failure>
-    <system-out><![CDATA[This is coming from BEFORE
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 23327
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1579726308.784][WARNING]: Timed out connecting to Chrome, retrying...
-Jan 22, 2020 9:51:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="Login with different users store manager" classname="Account types" time="26.389">
-    <failure message="Actual title:Dashboard" type="java.lang.AssertionError">java.lang.AssertionError: Actual title:Dashboard
-</failure>
-    <system-out><![CDATA[This is coming from BEFORE
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 23658
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1579726335.248][WARNING]: Timed out connecting to Chrome, retrying...
-Jan 22, 2020 9:52:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
+  <testcase name="Default page number" classname="Contact page" time="22.189"/>
 </testsuite>

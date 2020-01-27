@@ -1,4 +1,4 @@
-@login
+@smoke
 Feature: User should be able to login
   @driver @VYT-123
   Scenario: Login as a driver
