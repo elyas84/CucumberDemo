@@ -28,6 +28,25 @@ Feature: Contact page
      |storemanager85  | Marcella Bnmbnmbnm  |Huels|
 
 
+  @wip @db
+     Scenario: contact test with email
+       Given the user logged in as a "store manager"
+       And the user navigates "Customers" "Contacts"
+       When the user click the "mbrackstone9@example.com" from contact
+       Then the information should be same with database
+
+  @wip @db
+  Scenario: contact test with email
+    Given the user logged in as a "store manager"
+    And the user navigates "Customers" "Contacts"
+    When the user click the "poohchi@bark.edu" from contact
+    Then the information "poohchi@bark.edu" should be same with database
+
+
+
+
+
+
 
 
 

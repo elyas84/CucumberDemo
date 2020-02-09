@@ -14,19 +14,19 @@ public class DBUtils {
 
         public static void createConnection() {
 
-            String dbUrl = ConfigurationReader.get("qa3_db_Url");
-            String dbUsername = ConfigurationReader.get("qa3_db_Username");
-            String dbPassword = ConfigurationReader.get("qa3_db_Password");
+            String Url = ConfigurationReader.get("qa3_db_url");
+            String Username = ConfigurationReader.get("qa3_db_username");
+            String Password = ConfigurationReader.get("qa3_db_password");
 
             try {
-                connection = DriverManager.getConnection(dbUrl, dbUsername, dbPassword);
+                connection = DriverManager.getConnection(Url, Username, Password);
             } catch (SQLException e) {
                 // TODO Auto-generated catch block
                 e.printStackTrace();
             }
         }
 
-        public static void destroy() {
+        public static void destroyConnection() {
             try {
                 if (resultSet != null) {
                     resultSet.close();

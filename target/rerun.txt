@@ -1,2 +1,0 @@
-file:src/test/resources/features/Login.feature:4:12:20
-file:src/test/resources/features/NavigationMenu.feature:4:12:20
