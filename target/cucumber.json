@@ -1,13 +1,321 @@
 [
   {
-    "line": 2,
+    "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-02-27T19:43:31.959Z",
+        "start_timestamp": "2020-02-27T23:21:42.950Z",
         "before": [
           {
             "result": {
-              "duration": 6530940600,
+              "duration": 6732770800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Driver user",
+        "description": "",
+        "id": "account-types;driver-user",
+        "after": [
+          {
+            "result": {
+              "duration": 881287400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10419638800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user logged in as a \"driver\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"driver\"",
+                  "offset": 24
+                }
+              ],
+              "location": "NavigateStepDefinition.the_user_logged_in_as_a(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5682106900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user navigates \"Activities\" \"Calendar Events\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Activities\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Calendar Events\"",
+                  "offset": 32
+                }
+              ],
+              "location": "NavigateStepDefinition.the_user_navigates(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5015528100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the title should contains \"Calendar Events - Activities\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Calendar Events - Activities\"",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginStepDefinition.the_title_should_contains(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-27T23:22:11.763Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5060395200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Sales manager user",
+        "description": "",
+        "id": "account-types;sales-manager-user",
+        "after": [
+          {
+            "result": {
+              "duration": 649488700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8181906600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user logged in as a \"sales manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sales manager\"",
+                  "offset": 24
+                }
+              ],
+              "location": "NavigateStepDefinition.the_user_logged_in_as_a(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5637067300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user navigates \"Customers\" \"Accounts\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Customers\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Accounts\"",
+                  "offset": 31
+                }
+              ],
+              "location": "NavigateStepDefinition.the_user_navigates(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5015651600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the title should contains \"Accounts - Customers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Accounts - Customers\"",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginStepDefinition.the_title_should_contains(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-27T23:22:36.311Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5056592900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Store manager user",
+        "description": "",
+        "id": "account-types;store-manager-user",
+        "after": [
+          {
+            "result": {
+              "duration": 661295500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8263288800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user logged in as a \"store manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"store manager\"",
+                  "offset": 24
+                }
+              ],
+              "location": "NavigateStepDefinition.the_user_logged_in_as_a(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5657831400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user navigates \"Marketing\" \"Campaigns\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Marketing\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Campaigns\"",
+                  "offset": 31
+                }
+              ],
+              "location": "NavigateStepDefinition.the_user_navigates(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5012346900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the title should contains \"All - Campaigns - Marketing\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All - Campaigns - Marketing\"",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginStepDefinition.the_title_should_contains(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Account types",
+    "description": "",
+    "id": "account-types",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AccountTypes.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-27T23:23:00.968Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5037387200,
               "status": "passed"
             },
             "match": {
@@ -22,7 +330,7 @@
         "after": [
           {
             "result": {
-              "duration": 64210400,
+              "duration": 630771800,
               "status": "passed"
             },
             "match": {
@@ -35,7 +343,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1157004300,
+              "duration": 1176937500,
               "status": "passed"
             },
             "line": 17,
@@ -47,7 +355,7 @@
           },
           {
             "result": {
-              "duration": 4296645900,
+              "duration": 3567429200,
               "status": "passed"
             },
             "line": 18,
@@ -91,11 +399,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-02-27T19:43:44.085Z",
+        "start_timestamp": "2020-02-27T23:23:11.392Z",
         "before": [
           {
             "result": {
-              "duration": 6026260100,
+              "duration": 5041598200,
               "status": "passed"
             },
             "match": {
@@ -110,7 +418,7 @@
         "after": [
           {
             "result": {
-              "duration": 64972100,
+              "duration": 653631500,
               "status": "passed"
             },
             "match": {
@@ -123,7 +431,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1156593500,
+              "duration": 1173571100,
               "status": "passed"
             },
             "line": 17,
@@ -135,7 +443,7 @@
           },
           {
             "result": {
-              "duration": 5350670200,
+              "duration": 5528127100,
               "status": "passed"
             },
             "line": 18,
@@ -179,11 +487,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-02-27T19:43:56.698Z",
+        "start_timestamp": "2020-02-27T23:23:23.792Z",
         "before": [
           {
             "result": {
-              "duration": 6301496900,
+              "duration": 5043496300,
               "status": "passed"
             },
             "match": {
@@ -198,7 +506,7 @@
         "after": [
           {
             "result": {
-              "duration": 67724300,
+              "duration": 655891200,
               "status": "passed"
             },
             "match": {
@@ -211,7 +519,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1155816800,
+              "duration": 1146570100,
               "status": "passed"
             },
             "line": 17,
@@ -223,7 +531,7 @@
           },
           {
             "result": {
-              "duration": 5408524000,
+              "duration": 5198139300,
               "status": "passed"
             },
             "line": 18,
@@ -278,11 +586,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-02-27T19:44:09.641Z",
+        "start_timestamp": "2020-02-27T23:23:35.839Z",
         "before": [
           {
             "result": {
-              "duration": 5966821100,
+              "duration": 5063811500,
               "status": "passed"
             },
             "match": {
@@ -297,7 +605,7 @@
         "after": [
           {
             "result": {
-              "duration": 61000400,
+              "duration": 616918800,
               "status": "passed"
             },
             "match": {
@@ -310,7 +618,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1131290100,
+              "duration": 1141015100,
               "status": "passed"
             },
             "line": 5,
@@ -322,7 +630,7 @@
           },
           {
             "result": {
-              "duration": 7165383900,
+              "duration": 6820733600,
               "status": "passed"
             },
             "line": 6,
@@ -344,7 +652,7 @@
           },
           {
             "result": {
-              "duration": 372800,
+              "duration": 634600,
               "status": "passed"
             },
             "line": 7,
@@ -356,7 +664,7 @@
           },
           {
             "result": {
-              "duration": 5018331300,
+              "duration": 5021191700,
               "status": "passed"
             },
             "line": 8,
@@ -375,16 +683,19 @@
         ],
         "tags": [
           {
+            "name": "@smoke"
+          },
+          {
             "name": "@wip"
           }
         ]
       },
       {
-        "start_timestamp": "2020-02-27T19:44:29.002Z",
+        "start_timestamp": "2020-02-27T23:23:54.509Z",
         "before": [
           {
             "result": {
-              "duration": 5805711900,
+              "duration": 5049556500,
               "status": "passed"
             },
             "match": {
@@ -399,7 +710,7 @@
         "after": [
           {
             "result": {
-              "duration": 65402100,
+              "duration": 638683500,
               "status": "passed"
             },
             "match": {
@@ -412,7 +723,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1130207800,
+              "duration": 1153524400,
               "status": "passed"
             },
             "line": 13,
@@ -424,7 +735,7 @@
           },
           {
             "result": {
-              "duration": 7417582000,
+              "duration": 7298859700,
               "status": "passed"
             },
             "line": 14,
@@ -446,7 +757,7 @@
           },
           {
             "result": {
-              "duration": 448900,
+              "duration": 280300,
               "status": "passed"
             },
             "line": 15,
@@ -459,16 +770,19 @@
         ],
         "tags": [
           {
+            "name": "@smoke"
+          },
+          {
             "name": "@wip"
           }
         ]
       },
       {
-        "start_timestamp": "2020-02-27T19:44:43.429Z",
+        "start_timestamp": "2020-02-27T23:24:08.653Z",
         "before": [
           {
             "result": {
-              "duration": 5800301300,
+              "duration": 5073018000,
               "status": "passed"
             },
             "match": {
@@ -483,7 +797,7 @@
         "after": [
           {
             "result": {
-              "duration": 67640800,
+              "duration": 637281700,
               "status": "passed"
             },
             "match": {
@@ -496,7 +810,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1157846200,
+              "duration": 1210526500,
               "status": "passed"
             },
             "line": 19,
@@ -508,7 +822,7 @@
           },
           {
             "result": {
-              "duration": 8103804400,
+              "duration": 6999313500,
               "status": "passed"
             },
             "line": 20,
@@ -530,7 +844,7 @@
           },
           {
             "result": {
-              "duration": 339600,
+              "duration": 373600,
               "status": "passed"
             },
             "line": 21,
@@ -542,6 +856,9 @@
           }
         ],
         "tags": [
+          {
+            "name": "@smoke"
+          },
           {
             "name": "@wip"
           }
@@ -555,11 +872,19 @@
     "uri": "file:src/test/resources/features/LoginWithParameteres.feature",
     "tags": [
       {
-        "name": "@wip",
+        "name": "@smoke",
         "type": "Tag",
         "location": {
           "line": 1,
           "column": 1
+        }
+      },
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 8
         }
       }
     ]

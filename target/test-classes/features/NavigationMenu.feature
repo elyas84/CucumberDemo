@@ -7,8 +7,6 @@ Feature: Navigation menu
    When the user navigate to fleet, Vehicle
    Then the url should be expected Fleet url
 
-
-
    Scenario: Marketing--> Campaigns
        Given the user in the login page
        And the user enter the sales manager information

@@ -1,4 +1,4 @@
-@wip
+@smoke @wip
 Feature: Login with parameters
 
   Scenario: Login as a driver
