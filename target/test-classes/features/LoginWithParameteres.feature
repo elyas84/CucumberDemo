@@ -1,6 +1,6 @@
-
+@wip
 Feature: Login with parameters
-@smoke @wip
+
   Scenario: Login as a driver
     Given the user is on the login page
     When user logs in using "user11" and "UserUser123"
@@ -8,7 +8,7 @@ Feature: Login with parameters
     And the title should contains "Dashboard"
 
     #create the scenario for storemanager and sales manager
-  @smoke @wip
+
   Scenario:  Login as as sales manager
     Given the user is on the login page
     When user logs in using "salesmanager123" and "UserUser123"

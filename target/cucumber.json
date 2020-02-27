@@ -1,13 +1,13 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-02-27T08:39:36.062Z",
+        "start_timestamp": "2020-02-27T19:43:31.959Z",
         "before": [
           {
             "result": {
-              "duration": 6154541400,
+              "duration": 6530940600,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 3,
-        "name": "Driver user",
+        "line": 26,
+        "name": "login as a given user",
         "description": "",
-        "id": "account-types;driver-user",
+        "id": "contact-page;login-as-a-given-user;;2",
         "after": [
           {
             "result": {
-              "duration": 718192400,
+              "duration": 64210400,
               "status": "passed"
             },
             "match": {
@@ -31,82 +31,71 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 7945426500,
+              "duration": 1157004300,
               "status": "passed"
             },
-            "line": 4,
-            "name": "the user logged in as a \"driver\"",
+            "line": 17,
+            "name": "the user is on the login page",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"driver\"",
-                  "offset": 24
-                }
-              ],
-              "location": "NavigateStepDefinition.the_user_logged_in_as_a(String)"
+              "location": "LoginStepDefinition.the_user_is_on_the_login_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 5623201400,
+              "duration": 4296645900,
               "status": "passed"
             },
-            "line": 5,
-            "name": "the user navigates \"Activities\" \"Calendar Events\"",
+            "line": 18,
+            "name": "the user  logs in using following credentials",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Activities\"",
-                  "offset": 19
-                },
-                {
-                  "val": "\"Calendar Events\"",
-                  "offset": 32
-                }
-              ],
-              "location": "NavigateStepDefinition.the_user_navigates(String,String)"
+              "location": "ContactStepDefinition.the_user_logs_in_using_following_credentials(String,String\u003e)"
             },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "user1"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "UserUser123"
+                ]
+              },
+              {
+                "cells": [
+                  "firstname",
+                  "John"
+                ]
+              },
+              {
+                "cells": [
+                  "lastname",
+                  "Doe"
+                ]
+              }
+            ],
             "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 5013859300,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "the title should contains \"Calendar Events - Activities\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Calendar Events - Activities\"",
-                  "offset": 26
-                }
-              ],
-              "location": "LoginStepDefinition.the_title_should_contains(String)"
-            },
-            "keyword": "Then "
           }
         ],
         "tags": [
-          {
-            "name": "@smoke"
-          },
           {
             "name": "@wip"
           }
         ]
       },
       {
-        "start_timestamp": "2020-02-27T08:40:01.559Z",
+        "start_timestamp": "2020-02-27T19:43:44.085Z",
         "before": [
           {
             "result": {
-              "duration": 5150795900,
+              "duration": 6026260100,
               "status": "passed"
             },
             "match": {
@@ -114,14 +103,14 @@
             }
           }
         ],
-        "line": 8,
-        "name": "Sales manager user",
+        "line": 27,
+        "name": "login as a given user",
         "description": "",
-        "id": "account-types;sales-manager-user",
+        "id": "contact-page;login-as-a-given-user;;3",
         "after": [
           {
             "result": {
-              "duration": 733747300,
+              "duration": 64972100,
               "status": "passed"
             },
             "match": {
@@ -130,93 +119,170 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 9035939800,
+              "duration": 1156593500,
               "status": "passed"
             },
-            "line": 9,
-            "name": "the user logged in as a \"sales manager\"",
+            "line": 17,
+            "name": "the user is on the login page",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"sales manager\"",
-                  "offset": 24
-                }
-              ],
-              "location": "NavigateStepDefinition.the_user_logged_in_as_a(String)"
+              "location": "LoginStepDefinition.the_user_is_on_the_login_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 7953949600,
+              "duration": 5350670200,
               "status": "passed"
             },
-            "line": 10,
-            "name": "the user navigates \"Customers\" \"Accounts\"",
+            "line": 18,
+            "name": "the user  logs in using following credentials",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Customers\"",
-                  "offset": 19
-                },
-                {
-                  "val": "\"Accounts\"",
-                  "offset": 31
-                }
-              ],
-              "location": "NavigateStepDefinition.the_user_navigates(String,String)"
+              "location": "ContactStepDefinition.the_user_logs_in_using_following_credentials(String,String\u003e)"
             },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "salesmanager101"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "UserUser123"
+                ]
+              },
+              {
+                "cells": [
+                  "firstname",
+                  "Peyton"
+                ]
+              },
+              {
+                "cells": [
+                  "lastname",
+                  "Harber"
+                ]
+              }
+            ],
             "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 5017023700,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "the title should contains \"Accounts - Customers\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Accounts - Customers\"",
-                  "offset": 26
-                }
-              ],
-              "location": "LoginStepDefinition.the_title_should_contains(String)"
-            },
-            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@smoke"
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-27T19:43:56.698Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6301496900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "login as a given user",
+        "description": "",
+        "id": "contact-page;login-as-a-given-user;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 67724300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1155816800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginStepDefinition.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
           },
+          {
+            "result": {
+              "duration": 5408524000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user  logs in using following credentials",
+            "match": {
+              "location": "ContactStepDefinition.the_user_logs_in_using_following_credentials(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "storemanager85"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "UserUser123"
+                ]
+              },
+              {
+                "cells": [
+                  "firstname",
+                  "Marcella Bnmbnmbnm"
+                ]
+              },
+              {
+                "cells": [
+                  "lastname",
+                  "Huels"
+                ]
+              }
+            ],
+            "keyword": "When "
+          }
+        ],
+        "tags": [
           {
             "name": "@wip"
           }
         ]
       }
     ],
-    "name": "Account types",
+    "name": "Contact page",
     "description": "",
-    "id": "account-types",
+    "id": "contact-page",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/AccountTypes.feature",
+    "uri": "file:src/test/resources/features/Contact.feature",
     "tags": []
   },
   {
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-02-27T08:40:29.455Z",
+        "start_timestamp": "2020-02-27T19:44:09.641Z",
         "before": [
           {
             "result": {
-              "duration": 5033920400,
+              "duration": 5966821100,
               "status": "passed"
             },
             "match": {
@@ -231,7 +297,7 @@
         "after": [
           {
             "result": {
-              "duration": 702291300,
+              "duration": 61000400,
               "status": "passed"
             },
             "match": {
@@ -244,7 +310,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1177408200,
+              "duration": 1131290100,
               "status": "passed"
             },
             "line": 5,
@@ -256,7 +322,7 @@
           },
           {
             "result": {
-              "duration": 7645478000,
+              "duration": 7165383900,
               "status": "passed"
             },
             "line": 6,
@@ -278,7 +344,7 @@
           },
           {
             "result": {
-              "duration": 419400,
+              "duration": 372800,
               "status": "passed"
             },
             "line": 7,
@@ -290,7 +356,7 @@
           },
           {
             "result": {
-              "duration": 5011606300,
+              "duration": 5018331300,
               "status": "passed"
             },
             "line": 8,
@@ -309,19 +375,16 @@
         ],
         "tags": [
           {
-            "name": "@smoke"
-          },
-          {
             "name": "@wip"
           }
         ]
       },
       {
-        "start_timestamp": "2020-02-27T08:40:49.032Z",
+        "start_timestamp": "2020-02-27T19:44:29.002Z",
         "before": [
           {
             "result": {
-              "duration": 5077769400,
+              "duration": 5805711900,
               "status": "passed"
             },
             "match": {
@@ -336,7 +399,7 @@
         "after": [
           {
             "result": {
-              "duration": 726708000,
+              "duration": 65402100,
               "status": "passed"
             },
             "match": {
@@ -349,7 +412,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1106370300,
+              "duration": 1130207800,
               "status": "passed"
             },
             "line": 13,
@@ -361,7 +424,7 @@
           },
           {
             "result": {
-              "duration": 6988332700,
+              "duration": 7417582000,
               "status": "passed"
             },
             "line": 14,
@@ -383,7 +446,7 @@
           },
           {
             "result": {
-              "duration": 490300,
+              "duration": 448900,
               "status": "passed"
             },
             "line": 15,
@@ -396,8 +459,89 @@
         ],
         "tags": [
           {
-            "name": "@smoke"
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-27T19:44:43.429Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5800301300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Login as a store manager",
+        "description": "",
+        "id": "login-with-parameters;login-as-a-store-manager",
+        "after": [
+          {
+            "result": {
+              "duration": 67640800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1157846200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginStepDefinition.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
           },
+          {
+            "result": {
+              "duration": 8103804400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user logs in using \"storemanager85\" and \"UserUser123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"storemanager85\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"UserUser123\"",
+                  "offset": 40
+                }
+              ],
+              "location": "LoginStepDefinition.user_logs_in_using_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 339600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user should be able to login",
+            "match": {
+              "location": "LoginStepDefinition.the_user_should_be_able_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
           {
             "name": "@wip"
           }
@@ -409,6 +553,15 @@
     "id": "login-with-parameters",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/LoginWithParameteres.feature",
-    "tags": []
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
   }
 ]

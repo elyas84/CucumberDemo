@@ -1,10 +1,10 @@
 Feature: Account types
- @smoke @wip
+
   Scenario: Driver user
     Given the user logged in as a "driver"
     When the user navigates "Activities" "Calendar Events"
     Then the title should contains "Calendar Events - Activities"
-  @smoke @wip
+
   Scenario: Sales manager user
     Given  the user logged in as a "sales manager"
     When the user navigates "Customers" "Accounts"
@@ -20,7 +20,6 @@ Feature: Account types
     Given the user logged in as a "<usertypes>"
     When the user navigates "<tab>" "<module>"
     Then the title should contains "<title>"
-
     Examples: drivers
       | usertypes     | tab        | module          | title                                                              |
       | driver        | Fleet      | Vehicles Model  | Vehicles Model - Entities - System - Car - Entities - System       |
