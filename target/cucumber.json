@@ -1,22 +1,13 @@
 [
   {
-    "line": 2,
+    "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-02-09T23:27:51.907Z",
+        "start_timestamp": "2020-02-27T08:39:36.062Z",
         "before": [
           {
             "result": {
-              "duration": 1234170700,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.setUpDatabase()"
-            }
-          },
-          {
-            "result": {
-              "duration": 5838743200,
+              "duration": 6154541400,
               "status": "passed"
             },
             "match": {
@@ -24,27 +15,18 @@
             }
           }
         ],
-        "line": 32,
-        "name": "contact test with email",
+        "line": 3,
+        "name": "Driver user",
         "description": "",
-        "id": "contact-page;contact-test-with-email",
+        "id": "account-types;driver-user",
         "after": [
           {
             "result": {
-              "duration": 779220900,
+              "duration": 718192400,
               "status": "passed"
             },
             "match": {
               "location": "Hooks.tearDown(Scenario)"
-            }
-          },
-          {
-            "result": {
-              "duration": 6004500,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.tearDownDatabase()"
             }
           }
         ],
@@ -53,15 +35,15 @@
         "steps": [
           {
             "result": {
-              "duration": 10655203600,
+              "duration": 7945426500,
               "status": "passed"
             },
-            "line": 33,
-            "name": "the user logged in as a \"store manager\"",
+            "line": 4,
+            "name": "the user logged in as a \"driver\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"store manager\"",
+                  "val": "\"driver\"",
                   "offset": 24
                 }
               ],
@@ -71,53 +53,41 @@
           },
           {
             "result": {
-              "duration": 5773142800,
+              "duration": 5623201400,
               "status": "passed"
             },
-            "line": 34,
-            "name": "the user navigates \"Customers\" \"Contacts\"",
+            "line": 5,
+            "name": "the user navigates \"Activities\" \"Calendar Events\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Customers\"",
+                  "val": "\"Activities\"",
                   "offset": 19
                 },
                 {
-                  "val": "\"Contacts\"",
-                  "offset": 31
+                  "val": "\"Calendar Events\"",
+                  "offset": 32
                 }
               ],
               "location": "NavigateStepDefinition.the_user_navigates(String,String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 3850934300,
-              "status": "passed"
-            },
-            "line": 35,
-            "name": "the user click the \"mbrackstone9@example.com\" from contact",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"mbrackstone9@example.com\"",
-                  "offset": 19
-                }
-              ],
-              "location": "ContactStepDefinition.the_user_click_the_from_contact(String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 3218636300,
+              "duration": 5013859300,
               "status": "passed"
             },
-            "line": 36,
-            "name": "the information should be same with database",
+            "line": 6,
+            "name": "the title should contains \"Calendar Events - Activities\"",
             "match": {
-              "location": "ContactStepDefinition.the_information_should_be_same_with_database()"
+              "arguments": [
+                {
+                  "val": "\"Calendar Events - Activities\"",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginStepDefinition.the_title_should_contains(String)"
             },
             "keyword": "Then "
           }
@@ -128,27 +98,15 @@
           },
           {
             "name": "@wip"
-          },
-          {
-            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2020-02-09T23:28:23.326Z",
+        "start_timestamp": "2020-02-27T08:40:01.559Z",
         "before": [
           {
             "result": {
-              "duration": 960639100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.setUpDatabase()"
-            }
-          },
-          {
-            "result": {
-              "duration": 5083053200,
+              "duration": 5150795900,
               "status": "passed"
             },
             "match": {
@@ -156,27 +114,18 @@
             }
           }
         ],
-        "line": 39,
-        "name": "contact test with email",
+        "line": 8,
+        "name": "Sales manager user",
         "description": "",
-        "id": "contact-page;contact-test-with-email",
+        "id": "account-types;sales-manager-user",
         "after": [
           {
             "result": {
-              "duration": 784730500,
+              "duration": 733747300,
               "status": "passed"
             },
             "match": {
               "location": "Hooks.tearDown(Scenario)"
-            }
-          },
-          {
-            "result": {
-              "duration": 355300,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.tearDownDatabase()"
             }
           }
         ],
@@ -185,15 +134,15 @@
         "steps": [
           {
             "result": {
-              "duration": 9752301300,
+              "duration": 9035939800,
               "status": "passed"
             },
-            "line": 40,
-            "name": "the user logged in as a \"store manager\"",
+            "line": 9,
+            "name": "the user logged in as a \"sales manager\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"store manager\"",
+                  "val": "\"sales manager\"",
                   "offset": 24
                 }
               ],
@@ -203,11 +152,11 @@
           },
           {
             "result": {
-              "duration": 5619122700,
+              "duration": 7953949600,
               "status": "passed"
             },
-            "line": 41,
-            "name": "the user navigates \"Customers\" \"Contacts\"",
+            "line": 10,
+            "name": "the user navigates \"Customers\" \"Accounts\"",
             "match": {
               "arguments": [
                 {
@@ -215,47 +164,29 @@
                   "offset": 19
                 },
                 {
-                  "val": "\"Contacts\"",
+                  "val": "\"Accounts\"",
                   "offset": 31
                 }
               ],
               "location": "NavigateStepDefinition.the_user_navigates(String,String)"
             },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 3757786000,
-              "status": "passed"
-            },
-            "line": 42,
-            "name": "the user click the \"poohchi@bark.edu\" from contact",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"poohchi@bark.edu\"",
-                  "offset": 19
-                }
-              ],
-              "location": "ContactStepDefinition.the_user_click_the_from_contact(String)"
-            },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 3211043900,
+              "duration": 5017023700,
               "status": "passed"
             },
-            "line": 43,
-            "name": "the information \"poohchi@bark.edu\" should be same with database",
+            "line": 11,
+            "name": "the title should contains \"Accounts - Customers\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"poohchi@bark.edu\"",
-                  "offset": 16
+                  "val": "\"Accounts - Customers\"",
+                  "offset": 26
                 }
               ],
-              "location": "ContactStepDefinition.the_information_should_be_same_with_database(String)"
+              "location": "LoginStepDefinition.the_title_should_contains(String)"
             },
             "keyword": "Then "
           }
@@ -266,27 +197,218 @@
           },
           {
             "name": "@wip"
-          },
-          {
-            "name": "@db"
           }
         ]
       }
     ],
-    "name": "Contact page",
+    "name": "Account types",
     "description": "",
-    "id": "contact-page",
+    "id": "account-types",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/Contact.feature",
-    "tags": [
+    "uri": "file:src/test/resources/features/AccountTypes.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
       {
-        "name": "@smoke",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
+        "start_timestamp": "2020-02-27T08:40:29.455Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5033920400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login as a driver",
+        "description": "",
+        "id": "login-with-parameters;login-as-a-driver",
+        "after": [
+          {
+            "result": {
+              "duration": 702291300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1177408200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginStepDefinition.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7645478000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user logs in using \"user11\" and \"UserUser123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user11\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"UserUser123\"",
+                  "offset": 32
+                }
+              ],
+              "location": "LoginStepDefinition.user_logs_in_using_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 419400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user should be able to login",
+            "match": {
+              "location": "LoginStepDefinition.the_user_should_be_able_to_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5011606300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the title should contains \"Dashboard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dashboard\"",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginStepDefinition.the_title_should_contains(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-27T08:40:49.032Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5077769400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Login as as sales manager",
+        "description": "",
+        "id": "login-with-parameters;login-as-as-sales-manager",
+        "after": [
+          {
+            "result": {
+              "duration": 726708000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1106370300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginStepDefinition.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6988332700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user logs in using \"salesmanager123\" and \"UserUser123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"salesmanager123\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"UserUser123\"",
+                  "offset": 41
+                }
+              ],
+              "location": "LoginStepDefinition.user_logs_in_using_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 490300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user should be able to login",
+            "match": {
+              "location": "LoginStepDefinition.the_user_should_be_able_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
       }
-    ]
+    ],
+    "name": "Login with parameters",
+    "description": "",
+    "id": "login-with-parameters",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/LoginWithParameteres.feature",
+    "tags": []
   }
 ]

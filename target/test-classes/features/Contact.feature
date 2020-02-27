@@ -1,4 +1,4 @@
-@smoke
+
 Feature: Contact page
   Scenario: Default page number
     Given the user is on the login page
@@ -28,14 +28,14 @@ Feature: Contact page
      |storemanager85  | Marcella Bnmbnmbnm  |Huels|
 
 
-  @wip @db
+
      Scenario: contact test with email
        Given the user logged in as a "store manager"
        And the user navigates "Customers" "Contacts"
        When the user click the "mbrackstone9@example.com" from contact
        Then the information should be same with database
 
-  @wip @db
+
   Scenario: contact test with email
     Given the user logged in as a "store manager"
     And the user navigates "Customers" "Contacts"
